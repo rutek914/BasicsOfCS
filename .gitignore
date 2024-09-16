@@ -1,0 +1,49 @@
+# Pliki i foldery generowane przez system operacyjny
+.DS_Store
+Thumbs.db
+
+# Pliki i foldery Visual Studio
+.vs/
+*.vs/
+*.vscode/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Pliki i foldery kompilacji i binariów
+bin/
+obj/
+
+# Pliki konfiguracyjne IntelliJ IDEA
+.idea/
+
+# Pliki konfiguracyjne Rider
+.idea/
+
+# Pliki konfiguracyjne dla projektów .NET
+*.dll
+*.exe
+*.pdb
+*.log
+*.nupkg
+*.snk
+*.suo
+
+# Pliki dotyczące paczek NuGet
+*.nuget/
+packages/
+
+# Pliki cache
+*.cache
+*.tmp
+*.bak
+
+# Pliki wygenerowane przez testy
+test-results/
+coverage/
+*.coverage
+*.cover
+*.log
+*.trx
+
