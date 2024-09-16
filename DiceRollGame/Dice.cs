@@ -10,6 +10,7 @@ namespace DiceRollGame
     {
         public static int _rolledDot;
         private static readonly Random _random;
+        private static int _diceSize = 7;
 
         static Dice()
         {
@@ -18,7 +19,7 @@ namespace DiceRollGame
 
         public static int RollDice()
         {
-            _rolledDot = _random.Next(1, 7);
+            _rolledDot = _random.Next(1, _diceSize);
             return _rolledDot;
         }
     }

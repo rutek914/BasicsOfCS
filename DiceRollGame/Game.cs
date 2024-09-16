@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            GameLogic.BeginOfTheGame();
-            GameLogic.GuessLoop();
+            GameLogic.Play();
             Console.ReadKey();
         }
     }
